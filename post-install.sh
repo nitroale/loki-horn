@@ -73,6 +73,9 @@ echo
 if [[ ! $REPLY =~ ^[Nn]$ ]]
 then
 	sudo apt-get install baobab gparted localepurge filezilla apt-fast bum npm bleachbit gnumeric htop nload indicator-cpufreq synapse synaptyc sysv-rc-conf transmission software-properties-common gdebi
+	wget "https://github.com/nitroale/loki-horn/blob/master/bash_aliases"
+	wget "https://github.com/nitroale/loki-horn/blob/master/wheater.desktop"
+	mv bash_aliases .bash_aliases
 fi
 
 echo ------------------------------------------------
