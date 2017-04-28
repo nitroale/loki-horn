@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Wttr.in        
+Comment=Weather in terminal
+Exec=pantheon-terminal -e "bash -c 'curl wttr.in;$SHELL'"
+Icon=gnome-weather
+Terminal=false
+Type=Application
+Categories=Application;
